@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{A4E3FA4B-FCA8-4A8B-80CA-259CE2958DA2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ChildTableViewController.cs">
+    <Files>
+      <File FileName="XamarinDemo/Data/NetworkingHelper.cs" Line="29" Column="1" />
+      <File FileName="iOS/Main.cs" Line="5" Column="18" />
+      <File FileName="iOS/ViewController.cs" Line="43" Column="6" />
+      <File FileName="iOS/ChildTableViewController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinDemo" expanded="True">
+            <Node name="XamarinDemo" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="XamarinDemo.iOS" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="ChildTableViewController.cs" selected="True" />
+              <Node name="ViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XamarinDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1FD8F848-A864-4200-BB71-83311016C918">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.XamarinDemo.iOS>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.XamarinDemo.Droid FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

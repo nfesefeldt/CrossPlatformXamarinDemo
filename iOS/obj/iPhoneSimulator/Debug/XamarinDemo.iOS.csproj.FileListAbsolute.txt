@@ -1,0 +1,19 @@
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/bin/iPhoneSimulator/Debug/XamarinDemo.iOS.exe
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/bin/iPhoneSimulator/Debug/XamarinDemo.iOS.pdb
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/bin/iPhoneSimulator/Debug/RestSharp.dll
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/bin/iPhoneSimulator/Debug/XamarinDemo.dll
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/bin/iPhoneSimulator/Debug/XamarinDemo.pdb
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/bin/iPhoneSimulator/Debug/RestSharp.xml
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/actool/_PartialAppManifest.items
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/actool/_BundleResourceWithLogicalName.items
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_PartialAppManifest.items
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/obj/iPhoneSimulator/Debug/XamarinDemo.iOS.csprojAssemblyReference.cache
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/obj/iPhoneSimulator/Debug/XamarinDemo.iOS.csproj.CoreCompileInputs.cache
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/obj/iPhoneSimulator/Debug/XamarinDemo.iOS.csproj.CopyComplete
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/obj/iPhoneSimulator/Debug/XamarinDemo.iOS.exe
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/iOS/obj/iPhoneSimulator/Debug/XamarinDemo.iOS.pdb

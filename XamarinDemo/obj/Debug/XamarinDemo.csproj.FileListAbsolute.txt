@@ -1,0 +1,9 @@
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/XamarinDemo/obj/Debug/XamarinDemo.csprojAssemblyReference.cache
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/XamarinDemo/obj/Debug/XamarinDemo.csproj.CoreCompileInputs.cache
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/XamarinDemo/bin/Debug/XamarinDemo.dll
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/XamarinDemo/bin/Debug/XamarinDemo.pdb
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/XamarinDemo/bin/Debug/Newtonsoft.Json.dll
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/XamarinDemo/bin/Debug/Newtonsoft.Json.xml
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/XamarinDemo/obj/Debug/XamarinDemo.csproj.CopyComplete
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/XamarinDemo/obj/Debug/XamarinDemo.dll
+/Users/nealfesefeldt/Development/Demo/XamarinDemo/XamarinDemo/obj/Debug/XamarinDemo.pdb
