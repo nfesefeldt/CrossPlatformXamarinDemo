@@ -7,8 +7,6 @@ namespace XamarinDemo.iOS
 {
     public partial class RootViewController : UITableViewController, ResponderInterface
     {
-        NetworkingHelper networkingHelper = new NetworkingHelper();
-
         public RootViewController(IntPtr handle) : base(handle) { }
 
         public override void ViewDidLoad()
@@ -24,7 +22,7 @@ namespace XamarinDemo.iOS
 
         private async void FetchData()
         {
-            var tableItems = await networkingHelper.FetchData();
+            var tableItems = await NetworkingHelper.Instance.FetchData();
             PopulateUI(tableItems);
         }
 
@@ -37,8 +35,12 @@ namespace XamarinDemo.iOS
 
         public void ShowChildTableViewController(string parent)
         {
-            ChildTableViewController childController = new ChildTableViewController(networkingHelper, parent, "");
-            ShowViewController(childController, this);
+            var sb = UIStoryboard.FromName("ChildTableViewController", null);
+            var vc = sb.InstantiateViewController("Child2ViewController") as Child2ViewController;
+            vc.parent = parent;
+            vc.clientType = "";
+
+            ShowViewController(vc, this);
         }
     }
 }

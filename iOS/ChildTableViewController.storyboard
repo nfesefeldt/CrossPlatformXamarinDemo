@@ -7,33 +7,38 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Child Table View Controller-->
-        <scene sceneID="nVe-Tq-ncq">
+        <!--Child2 View Controller-->
+        <scene sceneID="cB0-hK-Utm">
             <objects>
-                <tableViewController storyboardIdentifier="ChildTableViewController" id="V2W-OS-vPY" customClass="ChildTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="WF4-Ni-Pcn">
+                <viewController storyboardIdentifier="Child2ViewController" id="zcs-AB-5Xu" customClass="Child2ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4wy-aP-Ijg"/>
+                        <viewControllerLayoutGuide type="bottom" id="dUz-no-Gbq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GyV-fa-U2E">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5GY-ZL-4lW">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dz8-MB-hTt">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dz8-MB-hTt" id="VJB-jZ-yQ3">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="V2W-OS-vPY" id="LcV-ul-6ke"/>
-                            <outlet property="delegate" destination="V2W-OS-vPY" id="aPH-wf-zVc"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="usJ-Cb-KfD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <constraints>
+                            <constraint firstItem="5GY-ZL-4lW" firstAttribute="top" secondItem="4wy-aP-Ijg" secondAttribute="bottom" id="RrR-2m-XlH"/>
+                            <constraint firstAttribute="trailing" secondItem="5GY-ZL-4lW" secondAttribute="trailing" id="Rt8-7F-axi"/>
+                            <constraint firstItem="5GY-ZL-4lW" firstAttribute="leading" secondItem="GyV-fa-U2E" secondAttribute="leading" id="bry-p8-BqU"/>
+                            <constraint firstItem="dUz-no-Gbq" firstAttribute="top" secondItem="5GY-ZL-4lW" secondAttribute="bottom" id="gXs-M6-P8I"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="TableView" destination="5GY-ZL-4lW" id="90p-lN-cYc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gCP-qc-NQ0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32" y="58"/>
+            <point key="canvasLocation" x="696" y="61"/>
         </scene>
     </scenes>
 </document>

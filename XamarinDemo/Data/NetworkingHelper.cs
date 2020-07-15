@@ -11,7 +11,19 @@ namespace XamarinDemo.Data
     {
         public ResponseObject responseObject;
 
-        public NetworkingHelper() { }
+        private static NetworkingHelper _Instance;
+        public static NetworkingHelper Instance
+        {
+            get
+            {
+                if (_Instance == null) {
+                    _Instance = new NetworkingHelper();
+                }
+                return _Instance;
+            }
+        }
+
+        private NetworkingHelper() { }
 
         public async Task<List<CellViewModel>> FetchData()
         {
@@ -44,6 +56,38 @@ namespace XamarinDemo.Data
 
             }
             return new CellViewModel(title, subtitle, false);
+        }
+
+        public List<CellViewModel> FetchChildTableViewData(string parent, string clientType)
+        {
+            List<CellViewModel> tableItems;
+
+            if (parent.Equals("LoginModes"))
+            {
+                tableItems = MapLoginModesData();
+            }
+            else if (parent.Equals("Clients"))
+            {
+                tableItems = MapClientTableViewData();
+            }
+            else if (parent.Equals("Web") || parent.Equals("Android") || parent.Equals("Ios"))
+            {
+                tableItems = MapClientChildTableViewData(parent);
+            }
+            else if (parent.Equals("FeatureFlags"))
+            {
+                tableItems = MapFeatureFlagsTableViewData(clientType);
+            }
+            else if (parent.Equals("ClientActions"))
+            {
+                tableItems = MapClientActionsTableViewData(clientType);
+            }
+            else
+            {
+                tableItems = new List<CellViewModel>();
+            }
+
+            return tableItems;
         }
 
         // Child view controller table mappings
