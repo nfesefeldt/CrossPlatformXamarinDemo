@@ -8,7 +8,7 @@ namespace XamarinDemo.iOS
 {
     public class TableViewSource : UITableViewSource
     {
-        string cellIdentifier = "tableCell";
+        string cellIdentifier = "NewCustomTableViewCell";
         List<CellViewModel> tableItems;
 
         ResponderInterface responder;
@@ -26,23 +26,19 @@ namespace XamarinDemo.iOS
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
-            UITableViewCell cell = tableView.DequeueReusableCell(cellIdentifier);
+            var shouldShowLottie = false;
+            var cell = tableView.DequeueReusableCell(cellIdentifier, indexPath) as NewCustomTableViewCell;
             CellViewModel item = tableItems[indexPath.Row];
 
-            if (cell == null)
-            {
-                cell = new UITableViewCell(UITableViewCellStyle.Subtitle, cellIdentifier);
-            }
-
-            cell.TextLabel.Text = item.Title;
-            cell.DetailTextLabel.Text = item.Subtitle;
             cell.UserInteractionEnabled = false;
 
             if (item.ShouldShowDisclosureIndicator == true)
             {
-                cell.Accessory = UITableViewCellAccessory.DisclosureIndicator;
+                shouldShowLottie = true;
                 cell.UserInteractionEnabled = true;
             }
+
+            cell.UpdateCell(item.Title, item.Subtitle, shouldShowLottie);
 
             return cell;
         }

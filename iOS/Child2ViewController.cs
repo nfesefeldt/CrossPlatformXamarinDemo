@@ -40,8 +40,10 @@ namespace XamarinDemo.iOS
 
         private void PopulateUI(List<CellViewModel> tableItems)
         {
-            var tableView = this.TableView;
+            var tableView = new UITableView(View.Frame);
+            tableView.RegisterNibForCellReuse(NewCustomTableViewCell.Nib, "NewCustomTableViewCell");
             tableView.Source = new TableViewSource(tableItems, this);
+            Add(tableView);
         }
 
         public void ShowChildTableViewController(string parent)

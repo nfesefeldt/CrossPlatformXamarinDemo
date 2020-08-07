@@ -41,10 +41,15 @@
     <Compile Include="Models\Web.cs" />
     <Compile Include="Models\ClientAction.cs" />
     <Compile Include="Data\ResponderInterface.cs" />
+    <Compile Include="Attributes\FontAttribute.cs" />
+    <Compile Include="Attributes\FontUtil.cs" />
+    <Compile Include="ColorEnum.cs" />
+    <Compile Include="FontEnum.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Attributes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

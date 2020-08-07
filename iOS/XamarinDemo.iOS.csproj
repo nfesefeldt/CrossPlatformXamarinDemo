@@ -81,6 +81,9 @@
     <Reference Include="RestSharp">
       <HintPath>..\packages\RestSharp.106.11.4\lib\netstandard2.0\RestSharp.dll</HintPath>
     </Reference>
+    <Reference Include="Lottie.iOS">
+      <HintPath>..\packages\Com.Airbnb.iOS.Lottie.2.5.11\lib\xamarinios10\Lottie.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamarinDemo\XamarinDemo.csproj">
@@ -100,6 +103,7 @@
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
     <InterfaceDefinition Include="ChildTableViewController.storyboard" />
+    <InterfaceDefinition Include="NewCustomTableViewCell.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -118,6 +122,14 @@
     <Compile Include="Child2ViewController.designer.cs">
       <DependentUpon>Child2ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewCustomTableViewCell.cs" />
+    <Compile Include="NewCustomTableViewCell.designer.cs">
+      <DependentUpon>NewCustomTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomTableCellGradientBackground.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="RightArrow.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
